@@ -1,0 +1,104 @@
+#herosection {
+    background: none;
+
+}
+
+#herosection_one {
+    background: none;
+    width: 50%;
+
+}
+
+#ButtonSec {
+    background: none;
+    display: flex;
+    gap: 30px;
+}
+
+#heroimg {
+    position: absolute;
+    top: -40px;
+    right: -450px;
+    z-index: -1;
+}
+
+#herosection {
+    height: 900px;
+    display: flex;
+    align-items: center;
+}
+
+#herosectoin_one>h1 {
+    size: 50px;
+    color: #091133;
+}
+
+#herosection_one>p {
+    color: #505F98;
+    font-size: 18px;
+}
+
+#landing-section-two {
+    display: flex;
+    height: 740px;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+#iconboxes {
+    display: flex;
+    margin-top: 80px;
+}
+
+#iconboxes>h4 {
+    color: var(--secondary-color);
+}
+
+#iconboxes p {
+    color: #5D6970;
+}
+
+#section-two-header>h1 {
+    color: var(--secondary-color);
+    font-size: 36px;
+}
+
+#section-two-header>p {
+    color: var(--tertiary-color);
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+#landing-section-three {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+#section-three-heading>h1 {
+    color: var(--secondary-color);
+    font-size: 36px;
+}
+
+#section-three-heading>p {
+    color: var(--tertiary-color);
+    font-size: 16px;
+}
+
+#landing-section-four {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+}
+
+#section-four-heading>h1 {
+    color: var(--secondary-color);
+    font-size: 36px;
+}
+
+#section-four-heading>p {
+    color: var(--tertiary-color);
+    font-size: 16px;
+}

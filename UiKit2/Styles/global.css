@@ -12,6 +12,10 @@ body {
     overflow-x: hidden;
 }
 
+hr {
+    color: #CDD1D4;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -60,4 +64,69 @@ nav>ul>a {
     color: var(--primary-color);
     padding: 10px 30px;
     min-width: 180px;
+}
+
+
+#footer {
+    margin-top: 172px;
+    background-color: #E7ECFF;
+    padding-left: 172px;
+    padding-right: 158px;
+    padding-bottom: 32px;
+    padding-top: 61px;
+    height: 216px;
+}
+
+#footer>div>h3 {
+    color: #37447E;
+}
+
+#ftrdiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ftrdiv1>button {
+    color: #FFFFFF ;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 2px;
+    width: 109px;
+    height: 26px;
+}
+
+#ftrdiv1>span {
+    color: #939EA4;
+    font-size: 14px;
+}
+
+#ftrdiv2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ftrdiv2>div>ul li {
+    list-style-type: none;
+    color: rgb(146, 158, 204);
+}
+
+#ftrdiv2>div>ul a {
+    text-decoration: none;
+}
+
+#ftrdiv2>div>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+#ftrdiv2>div {
+    display: flex;
+    gap: 30px;
+}
+
+#ftrdiv2>div {
+    color: #B0B8BC;
 }
